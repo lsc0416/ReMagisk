@@ -84,6 +84,24 @@
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
+                                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/status"
+                    style="@style/Widget.Material3.CardView.Elevated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:outlineAmbientShadowColor="?colorPrimary"
+                    android:outlineSpotShadowColor="?colorPrimary"
+                    android:stateListAnimator="@null"
+                    app:cardBackgroundColor="?colorPrimary"
+                    app:cardElevation="@dimen/home_primary_elevation"
+                    app:cardPreventCornerOverlap="false"
+                    tools:targetApi="p">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="?dialogPreferredPadding">
+
             </com.google.android.material.card.MaterialCardView>
 
             <include
