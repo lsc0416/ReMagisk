@@ -56,7 +56,7 @@ dependencies {
     implementation(libs.fragment.ktx)
     implementation(libs.appcompat)
     implementation(libs.material)
-implementation("com.github.Juky-App:SquircleView:1.0.1")
+    implementation(libs.squircleview)
 
     // Make sure kapt runs with a proper kotlin-stdlib
     kapt(kotlin("stdlib"))
