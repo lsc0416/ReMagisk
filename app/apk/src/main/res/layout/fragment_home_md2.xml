@@ -84,7 +84,7 @@
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
-            </squircleview.views.SquircleView>
+                        </com.google.android.material.card.MaterialCardView>
 
 
             <include
