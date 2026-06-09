@@ -84,7 +84,8 @@
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </squircleview.views.SquircleView>
+
 
             <include
                 android:id="@+id/home_magisk_wrapper"
